@@ -20,7 +20,7 @@
                      </group>
                      <notebook>
                         <page string="Columns">
-                            <field name="column_ids">
+                            <field name="column_ids" mode="list">
                                 <list>
                                     <field name="name"/>
                                     <field name="columne_type"/>
