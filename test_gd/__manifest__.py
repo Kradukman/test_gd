@@ -19,6 +19,7 @@
         # views
         'views/test_gd_module.xml',
         'views/column.xml',
+        'views/data.xml',
     ],
     'installable': True,
     'auto_install': False,
