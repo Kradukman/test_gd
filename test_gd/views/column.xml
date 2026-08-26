@@ -23,7 +23,7 @@
         <field name="name">test_gd.column.list</field>
         <field name="model">test_gd.column</field>
         <field name="arch" type="xml">
-            <list string="Columns">
+            <list create="1" delete="1" multi_edit="1" string="Columns">
                 <field name="name"/>
                 <field name="column_type"/>
             </list>
