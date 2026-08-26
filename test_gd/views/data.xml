@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- FORM VIEW -->
+    <record model="ir.ui.view" id="data_view_form">
+        <field name="name">test_gd.data_view_form</field>
+        <field name="model">test_gd.data</field>
+        <field name="arch" type="xml">
+            <form string="Author Form">
+                <sheet>
+                    <group>
+                        <h1>
+                            <field name="name" string="Name"/>
+                        </h1>
+                     </group>
+                     <group>
+                        <field name="source_application" string="source_application"/>
+                        <field name="api_url" string="api_url"/>
+                     </group>
+                     <notebook>
+                        <page string="Columns">
+                            <group>
+                                <field name="column_ids">
+                                    <tree>
+                                        <field name="name"/>
+                                        <field name="type"/>
+                                    </tree>
+                                </field>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="view_column_list" model="ir.ui.view">
+        <field name="name">test_gd.data.list</field>
+        <field name="model">test_gd.data</field>
+        <field name="arch" type="xml">
+            <list create="1" delete="1" multi_edit="1" string="Columns">
+                <field name="name" string="Name"/>
+                <field name="source_application" string="source"/>
+                <field name="api_url" string="API"/>
+            </list>
+        </field>
+    </record>
+
+</odoo>
