@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- FORM VIEW -->
+    <record model="ir.ui.view" id="column_view_form">
+        <field name="name">test_gd.column_view_form</field>
+        <field name="model">test_gd.column</field>
+        <field name="arch" type="xml">
+            <form string="Author Form">
+                <sheet>
+                    <group>
+                        <h1>
+                            <field name="name"/>
+                            <field name="type"/>
+                        </h1>
+                     </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="view_column_tree" model="ir.ui.view">
+        <field name="name">test_gd.column.tree</field>
+        <field name="model">bd.author</field>
+        <field name="arch" type="xml">
+            <tree string="Author">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>
