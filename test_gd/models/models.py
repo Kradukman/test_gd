@@ -16,4 +16,4 @@ class Data(models.Model):
     name = fields.Char('Name', help='Data Name')
     source_application = fields.Char('Source')
     api_url = fields.Char('API')
-    columns = fields.One2many('test_gd.columns', 'Columns')
+    columns = fields.One2many('test_gd.column', 'Columns')
