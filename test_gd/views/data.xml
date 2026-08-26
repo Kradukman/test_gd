@@ -18,7 +18,7 @@
                             <field name="api_url" string="api_url"/>
                         </group>
                      </group>
-                     <notebook>
+                     <!--<notebook>
                         <page string="Columns">
                             <group>
                                 <field name="column_ids">
@@ -29,7 +29,7 @@
                                 </field>
                             </group>
                         </page>
-                    </notebook>
+                    </notebook>-->
                 </sheet>
             </form>
         </field>
@@ -40,7 +40,7 @@
         <field name="name">test_gd.data.list</field>
         <field name="model">test_gd.data</field>
         <field name="arch" type="xml">
-            <list create="1" delete="1" multi_edit="1" string="Columns">
+            <list create="1" delete="1" multi_edit="1" string="Data">
                 <field name="name" string="Name"/>
                 <field name="source_application" string="source"/>
                 <field name="api_url" string="API"/>
