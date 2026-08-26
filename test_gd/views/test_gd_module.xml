@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+     <record model="ir.actions.act_window" id="column_list_action">
+          <field name="name">Column</field>
+          <field name="res_model">test_gd.column</field>
+          <field name="view_mode">tree,form</field>
+          <field name="help" type="html">
+               <p class="o_view_nocontent_smiling_face">View Columns
+               </p>
+          </field>
+     </record>
+
+     <!-- top level menu: no parent -->
+     <menuitem id="main_test_menu" name="Test" groups="base.group_user"/>
+     <!-- A first level in the left side menu is needed
+          before using action= attribute -->
+     <menuitem id="test_menu" name="test" parent="main_test_menu"/>
+
+     <menuitem id="test_gd_column_menu" name="Column" parent="test_menu"
+               action="column_list_action"/>
+
+</odoo>
