@@ -1,8 +1,8 @@
 from odoo import api, fields, models, _
 
 
-class Columns(models.Model):
-    _name = 'test_gd.columns'
+class Column(models.Model):
+    _name = 'test_gd.column'
     _description = 'Columns'
 
     name = fields.Char('Name')
