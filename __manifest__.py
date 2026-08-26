@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 {
-    'name': 'test',
+    'name': 'test GD',
     'version': '19.0',
     'description': """Manage test""",
 
