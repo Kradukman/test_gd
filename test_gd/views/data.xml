@@ -21,7 +21,6 @@
                      <notebook>
                         <page string="Columns">
                             <field name="column_ids" mode="list"/>
-                            </group>
                         </page>
                     </notebook>
                 </sheet>
