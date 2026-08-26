@@ -17,7 +17,7 @@
         # security
         'security/ir.model.access.csv',
         # views
-        'views/test_module.xml',
+        'views/test_gd_module.xml',
         'views/columns.xml',
     ],
     'installable': True,
