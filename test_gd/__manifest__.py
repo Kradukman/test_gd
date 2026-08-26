@@ -18,7 +18,7 @@
         'security/ir.model.access.csv',
         # views
         'views/test_module.xml',
-        'views/outage.xml',
+        'views/columns.xml',
     ],
     'installable': True,
     'auto_install': True,
