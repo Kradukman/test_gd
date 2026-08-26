@@ -8,22 +8,24 @@
             <form string="Author Form">
                 <sheet>
                     <group>
-                        <h1>
-                            <field name="name" string="Name"/>
-                        </h1>
-                     </group>
-                     <group>
-                        <field name="source_application" string="source_application"/>
-                        <field name="api_url" string="api_url"/>
+                        <group>
+                            <h1>
+                                <field name="name" string="Name"/>
+                            </h1>
+                        </group>
+                        <group>
+                            <field name="source_application" string="source_application"/>
+                            <field name="api_url" string="api_url"/>
+                        </group>
                      </group>
                      <notebook>
                         <page string="Columns">
                             <group>
                                 <field name="column_ids">
-                                    <tree>
+                                    <list>
                                         <field name="name"/>
                                         <field name="type"/>
-                                    </tree>
+                                    </list>
                                 </field>
                             </group>
                         </page>
