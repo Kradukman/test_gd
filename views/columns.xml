@@ -21,10 +21,11 @@
     <!-- TREE VIEW -->
     <record id="view_column_tree" model="ir.ui.view">
         <field name="name">test_gd.column.tree</field>
-        <field name="model">bd.author</field>
+        <field name="model">test_gd.column</field>
         <field name="arch" type="xml">
-            <tree string="Author">
+            <tree string="Columns">
                 <field name="name"/>
+                <field name="type"/>
             </tree>
         </field>
     </record>
