@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_test_gd_column,access_test_gd_column_user,model_test_gd_column,base.group_user,1,1,1,1
+access_test_gd_data,access_test_gd_data_user,model_test_gd_data,base.group_user,1,1,1,1
