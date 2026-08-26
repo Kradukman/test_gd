@@ -18,7 +18,7 @@
         'security/ir.model.access.csv',
         # views
         'views/test_gd_module.xml',
-        'views/columns.xml',
+        'views/column.xml',
     ],
     'installable': True,
     'auto_install': False,
