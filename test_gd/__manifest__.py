@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 {
     'name': 'test GD',
-    'version': '19.0',
+    'version': '19.0.1.0.0',
     'description': """Manage test""",
 
     'depends': [
