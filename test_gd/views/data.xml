@@ -34,7 +34,7 @@
     </record>
 
     <!-- TREE VIEW -->
-    <record id="view_column_list" model="ir.ui.view">
+    <record id="view_data_list" model="ir.ui.view">
         <field name="name">test_gd.data.list</field>
         <field name="model">test_gd.data</field>
         <field name="arch" type="xml">
