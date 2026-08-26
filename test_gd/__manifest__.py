@@ -6,7 +6,6 @@
 
     'depends': [
         'base',
-        'contacts',
     ],
     'data': [
         # assets
