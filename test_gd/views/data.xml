@@ -18,18 +18,17 @@
                             <field name="api_url"/>
                         </group>
                      </group>
-                     <!--<notebook>
+                     <notebook>
                         <page string="Columns">
-                            <group>
-                                <field name="column_ids">
-                                    <list>
-                                        <field name="name"/>
-                                        <field name="type"/>
-                                    </list>
-                                </field>
+                            <field name="column_ids">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="columne_type"/>
+                                </list editable="bottom">
+                            </field>
                             </group>
                         </page>
-                    </notebook>-->
+                    </notebook>
                 </sheet>
             </form>
         </field>
