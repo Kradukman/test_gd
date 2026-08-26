@@ -19,14 +19,14 @@
     </record>
 
     <!-- TREE VIEW -->
-    <record id="view_column_tree" model="ir.ui.view">
-        <field name="name">test_gd.column.tree</field>
+    <record id="view_column_list" model="ir.ui.view">
+        <field name="name">test_gd.column.list</field>
         <field name="model">test_gd.column</field>
         <field name="arch" type="xml">
-            <tree string="Columns">
+            <list string="Columns">
                 <field name="name"/>
-                <field name="tcolumn_typepe"/>
-            </tree>
+                <field name="column_type"/>
+            </list>
         </field>
     </record>
 
