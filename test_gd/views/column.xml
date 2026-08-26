@@ -10,7 +10,7 @@
                     <group>
                         <h1>
                             <field name="name"/>
-                            <field name="type"/>
+                            <field name="column_type"/>
                         </h1>
                      </group>
                 </sheet>
@@ -25,7 +25,7 @@
         <field name="arch" type="xml">
             <tree string="Columns">
                 <field name="name"/>
-                <field name="type"/>
+                <field name="tcolumn_typepe"/>
             </tree>
         </field>
     </record>
