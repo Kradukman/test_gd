@@ -10,6 +10,15 @@
                </p>
           </field>
      </record>
+     <record model="ir.actions.act_window" id="data_list_action">
+          <field name="name">Data</field>
+          <field name="res_model">test_gd.data</field>
+          <field name="view_mode">list,form</field>
+          <field name="help" type="html">
+               <p class="o_view_nocontent_smiling_face">View Data
+               </p>
+          </field>
+     </record>
 
      <!-- top level menu: no parent -->
      <menuitem id="main_test_menu" name="Test" groups="base.group_user"/>
@@ -19,5 +28,8 @@
 
      <menuitem id="test_gd_column_menu" name="Column" parent="test_menu"
                action="column_list_action"/>
+    <menuitem id="test_gd_data_menu" name="Data" parent="test_menu"
+               action="data_list_action"/>
+
 
 </odoo>
